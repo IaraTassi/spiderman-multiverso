@@ -50,7 +50,7 @@ body::before {
   width: 100%;
   height: 70vh;
   position: absolute;
-  transition: .5s ease-in-out;
+  transition: filter .5s ease-in-out;
 }
 
 .s-card:nth-child(1) {
@@ -179,7 +179,7 @@ body[id^="spider-man-"] .s-card:not(.s-card--hovered) {
 .s-cards-carousel {
   display: flex;
   justify-content: center;
-  width: calc(100vw / 3 - 8%);
+  width: calc(100vw / 3 - 10%);
   transform-style: preserve-3d;
   transition: transform 0.4s ease-in-out;
 }
